@@ -1,0 +1,46 @@
+/* Style the chat container */
+#chat-box {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+/* Style the chat messages */
+#chat-box p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Style the chat form */
+#chat-form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Style the chat input */
+#user-input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+/* Style the chat submit button */
+#submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the chat submit button on hover */
+#submit-btn:hover {
+  background-color: #3e8e41;
+}
